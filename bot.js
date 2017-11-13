@@ -9,6 +9,12 @@ client.on('message', message => {
     if (message.content === 'kek') {
     	message.reply('kek?');
   	}
+    
+    
+client.on('message', message => {
+    if (message.content === 'Help') {
+    	message.reply('**heythisishelp**');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
